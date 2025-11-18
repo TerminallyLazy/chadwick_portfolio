@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio of Chadwick B. Jones, a Senior Clinical Data Analyst & Informatics Specialist specializing in HL7, FHIR, SQL, and AI-driven healthcare solutions." />
+    <meta name="keywords" content="Healthcare Data Analyst, Clinical Informatics, HL7, FHIR, SQL, Python, Data Engineering, AI in Healthcare, Chadwick B. Jones, Portfolio" />
+    <meta name="author" content="Chadwick B. Jones" />
+    <title>Chadwick B. Jones | Clinical Data & AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Space Grotesk', 'sans-serif'],
+            },
+            colors: {
+              primary: '#3b82f6', // Blue
+              secondary: '#10b981', // Emerald
+              accent: '#facc15', // Yellow
+              accent2: '#ff7eb6', // Pink
+              dark: '#000000',
+              light: '#ffffff',
+              paper: '#f0f0f0',
+            },
+            boxShadow: {
+              'neo': '4px 4px 0px 0px rgba(0,0,0,1)',
+              'neo-sm': '2px 2px 0px 0px rgba(0,0,0,1)',
+              'neo-lg': '8px 8px 0px 0px rgba(0,0,0,1)',
+            },
+            borderWidth: {
+              '3': '3px',
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-color: #ffffff;
+        color: #000000;
+        overflow-x: hidden;
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 12px;
+        background: #ffffff;
+        border-left: 2px solid black;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f0f0f0;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #3b82f6;
+        border: 2px solid black;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #2563eb;
+      }
+      
+      .bg-grid {
+        background-size: 40px 40px;
+        background-image: linear-gradient(to right, rgba(0,0,0,0.05) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(0,0,0,0.05) 1px, transparent 1px);
+      }
+      
+      .neo-card {
+        background: white;
+        border: 2px solid black;
+        box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+        transition: all 0.2s ease;
+      }
+      
+      .neo-card:hover {
+        transform: translate(-2px, -2px);
+        box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+      }
+
+      .neo-button {
+        background: white;
+        border: 2px solid black;
+        box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+        transition: all 0.1s ease;
+        font-weight: 700;
+      }
+      
+      .neo-button:active {
+        transform: translate(2px, 2px);
+        box-shadow: 2px 2px 0px 0px rgba(0,0,0,1);
+      }
+
+      .neo-input {
+        border: 2px solid black;
+        box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.1);
+        transition: all 0.2s;
+      }
+      .neo-input:focus {
+        box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+        outline: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.4.1",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
+    "@splinetool/react-spline": "https://aistudiocdn.com/@splinetool/react-spline@^4.0.0",
+    "@splinetool/runtime": "https://aistudiocdn.com/@splinetool/runtime@^1.9.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
